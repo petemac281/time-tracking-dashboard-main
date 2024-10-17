@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <main>
+
+    <div class="container">
+
+      <div class="gridGroup" id="headSection">
+
+        <div id="namePlate">
+
+          <img src="./images/image-jeremy.png" alt="pic of Jeremy">
+          
+            <div class="headerText">
+
+            <h1>Report for</h1>
+            <h2>Jeremy Robson</h2>
+
+           </div>
+
+        </div>
+
+          <div id="periodSelect">
+
+            <p id="daily">Daily</p>
+            <p class="selected" id="weekly">Weekly</p>
+            <p id="monthly">Monthly</p>
+
+          </div>
+
+      </div>
+
+      <div class="gridGroup gridGroup1">
+        <div id="workTopper"></div>
+        <div class="sections" id="workSection">
+          <h2>Work</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+            <h3><span class="work">32</span>hrs</h3> <!-- weekly -->
+            <p>Previous - <span class="workPrev">36</span>hrs</p><!-- weekly -->
+          </div>
+        </div>
+      </div>
+
+      <div class="gridGroup gridGroup2">
+        <div id="playTopper"></div>
+        <div class="sections" id="playSection">
+          <h2>Play</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+          <h3><span class="play">10</span>hrs</h3> <!-- weekly -->
+          <p>Previous - <span class="playPrev">8</span>hrs</p> <!-- weekly -->
+        </div>
+        </div>
+
+      </div>
+
+      <div class="gridGroup gridGroup3">
+        <div id="studyTopper"></div>
+        <div class="sections" id="studySection">
+          <h2>Study</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+          <h3><span class="study">4</span>hrs</h3> <!-- weekly -->
+          <p>Previous - <span class="studyPrev">7</span>hrs</p> <!-- weekly -->
+          </div>
+        </div>
+      </div>
+
+      <div class="gridGroup gridGroup4">
+        <div id="exerciseTopper"></div>
+        <div class="sections" id="exerciseSection">
+          <h2>Exercise</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+            <h3><span class="exercise">4</span>hrs</h3> <!-- weekly -->
+            <p>Previous - <span class="exercisePrev">5</span>hrs</p> <!-- weekly -->
+          </div>
+        </div>
+      </div>
+
+      <div class="gridGroup gridGroup5">
+        <div id="socialTopper"></div>
+        <div class="sections" id="socialSection">
+          <h2>Social</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+            <h3><span class="social">5</span>hrs</h3> <!-- weekly -->
+            <p>Previous - <span class="socialPrev">10</span>hrs</p> <!-- weekly -->
+          </div>
+        </div>
+      </div>
+
+      <div class="gridGroup gridGroup6">
+        <div id="selfcareTopper"></div>
+        <div class="sections" id="selfcareSection">
+          <h2>Self Care</h2>
+          <img src="./images/icon-ellipsis.svg">
+          <div class="values">
+            <h3><span class="selfCare">2</span>hrs</h3> <!-- weekly -->
+            <p>Previous - <span class="selfCarePrev">2</span>hrs</p> <!-- weekly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Pete McCartney</a>.
+    </div>
+
+  </footer>
+
+  <script src="./main.js"></script>
+
+</body>
+</html>
